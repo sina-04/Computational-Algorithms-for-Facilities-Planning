@@ -299,7 +299,7 @@ Enter 1 or 2:
 If **Yes**, each accepted swap during the local search prints:
 
 ```text
-Swap A ↔ C | Δ=-123.4567 | Cost=789.0123
+Swap A ↔ C | Δ=-123.4570 | Cost=790.0000
 ```
 
 Where:
@@ -343,10 +343,10 @@ A   0.0000  10.0000 20.0000
 B   10.0000 0.0000  15.0000
 C   20.0000 15.0000 0.0000
 
-Original Total Cost (identity assignment): 12345.6789
+Original Total Cost (identity assignment): 12345.6790
 
-Minimum Total Cost: 9876.5432
-Cost Savings vs original: 2469.1357
+Minimum Total Cost: 9876.5430
+Cost Savings vs original: 2470.1360
 
 Final assignment (Department → Location index):
   A → 2
@@ -379,9 +379,9 @@ If **Yes**, you will see something like:
 
 ```text
 Cost history:
-  Initial                  12345.6789
-  Swap A ↔ C              11000.1234
-  Swap B ↔ C              9876.5432
+  Initial                  12345.67890
+  Swap A ↔ C              11000.12340
+  Swap B ↔ C              9876.54320
 ```
 
 This shows each improving move and the corresponding cost.
