@@ -92,14 +92,14 @@ No external third-party packages are required.
 1. Clone or download this repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/sina-04/Computational-Algorithms-for-Facilities-Planning.git
+   cd Computational-Algorithms-for-Facilities-Planning
    ```
 
 2. The main script is:
 
    ```text
-   CRAFT (Final).py
+   craft/craft.py
    ```
 
    > 💡 For convenience, you may want to rename it to `craft.py`, but the code works as-is.
@@ -121,7 +121,7 @@ From the repository folder:
 
 ```bash
 # Unix/macOS (quote the filename because of spaces and parentheses)
-python "CRAFT (Final).py"
+python craft/craft.py
 
 # or, if you renamed it:
 python craft.py
@@ -431,11 +431,13 @@ Current repository structure (simplified):
 
 ```text
 .
-├── CRAFT (Final).py   # Main and only script with all logic & interactive CLI
+├── craft.py           # Core functions and interactive CLI
+└── __init__.py        # Importable package interface
 └── README.md          # This documentation
 ```
 
-All functionality (data input, distance computation, cost computation, local search, and CLI) is contained in `CRAFT (Final).py`.
+Core data input, distance computation, cost computation, local search, and CLI
+logic are contained in `craft/craft.py`.
 
 ---
 
